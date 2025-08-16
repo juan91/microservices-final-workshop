@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 8080
+
+bank-service:
+  url: "http://localhost:8081"
+  id:  "bank-service"
+  path: "/api/banks/**"
+
+account-service:
+  url: "http://localhost:8082"
+  id:  "account-service"
+  path: "/accounts/api/**"
+
+transaction-service:
+  url: "http://localhost:8083"
+  id:  "transaction-service"
+  path: "/transactions/api/**"
+
+jwt:
+  secret: 09879856YNB6B824H5JLKSGKLNKLDASJGFBNSD87254ljkhs

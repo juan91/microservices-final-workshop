@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/accounts-service/app-banking.accounts-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/accounts-service/app-banking.accounts-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/app-banking.api-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/app-banking.api-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auth-service/app-banking.auth-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auth-service/app-banking.auth-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bank-service/app-banking.bank-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/bank-service/app-banking.bank-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transaction-service/app-banking.transaction-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/transaction-service/app-banking.transaction-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transfer-service/app-banking.transfer-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/transfer-service/app-banking.transfer-service.main.iml" />
+    </modules>
+  </component>
+</project>

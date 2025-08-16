@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: transfer-service
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: "juan@@1991"
+
+  rabbitmq:
+    addresses: "amqps://ltqlmrty:c_8BQOD3dksKhM8Gs730tGQZFmf0qPpV@possum.lmq.cloudamqp.com/ltqlmrty"

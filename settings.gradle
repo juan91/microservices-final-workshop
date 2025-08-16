@@ -1,0 +1,8 @@
+rootProject.name = 'app-banking'
+
+include 'api-gateway'
+include 'bank-service'
+include 'accounts-service'
+include 'transaction-service'
+include 'transfer-service'
+include 'auth-service'

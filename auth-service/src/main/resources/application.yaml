@@ -1,0 +1,15 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: bank-service
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: "juan@@1991"
+  flyway:
+    enabled: false
+
+jwt:
+  secret: 09879856YNB6B824H5JLKSGKLNKLDASJGFBNSD87254ljkhs
