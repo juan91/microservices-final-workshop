@@ -1,19 +1,24 @@
 server:
-  port: 8083
+  port: ${TRANSACTION_SERVICE_PORT:8083}
 
 spring:
   application:
-    name: transaction-service
+    name: ${TRANSACTION_SERVICE_NAME:transaction-service}
+
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: "juan@@1991"
+    url: ${TRANSACTION_SERVICE_R2DBC_URL:r2dbc:postgresql://localhost:5432/postgres}
+    username: ${TRANSACTION_SERVICE_R2DBC_USERNAME:postgres}
+    password: ${TRANSACTION_SERVICE_R2DBC_PASSWORD:''}
+
   flyway:
-    enabled: false
+    enabled: ${TRANSACTION_SERVICE_FLYWAY_ENABLED:false}
+
   rabbitmq:
-    addresses: "amqps://ltqlmrty:c_8BQOD3dksKhM8Gs730tGQZFmf0qPpV@possum.lmq.cloudamqp.com/ltqlmrty"
+    addresses: ${TRANSACTION_SERVICE_RABBITMQ_ADDRESSES:''}
+
   level:
-    org.springframework.r2dbc: DEBUG
+    org.springframework.r2dbc: ${TRANSACTION_SERVICE_LOG_R2DBC_LEVEL:DEBUG}
+
   grpc:
     server:
-      port: 9099
+      port: ${TRANSACTION_SERVICE_GRPC_PORT:9099}

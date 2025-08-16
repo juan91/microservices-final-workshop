@@ -5,6 +5,8 @@ dependencies {
     runtimeOnly 'org.postgresql:postgresql'
     implementation 'io.grpc:grpc-services'
 
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
 }
 
 protobuf {

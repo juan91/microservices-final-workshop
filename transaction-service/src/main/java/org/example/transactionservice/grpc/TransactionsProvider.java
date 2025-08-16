@@ -3,9 +3,6 @@ package org.example.transactionservice.grpc;
 import io.grpc.stub.StreamObserver;
 import org.example.transactionservice.repo.TransaccionRepository;
 import org.springframework.grpc.server.service.GrpcService;
-import org.springframework.http.HttpStatus;
-import org.springframework.web.server.ResponseStatusException;
-import reactor.core.publisher.Mono;
 
 @GrpcService
 public class TransactionsProvider extends TransactionServiceGrpc.TransactionServiceImplBase{

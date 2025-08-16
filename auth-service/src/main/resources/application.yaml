@@ -1,15 +1,17 @@
 server:
-  port: 8086
+  port: ${BANK_SERVICE_PORT:8086}
 
 spring:
   application:
-    name: bank-service
+    name: ${BANK_SERVICE_NAME:bank-service}
+
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: "juan@@1991"
+    url: ${BANK_SERVICE_R2DBC_URL:r2dbc:postgresql://localhost:5432/postgres}
+    username: ${BANK_SERVICE_R2DBC_USERNAME:postgres}
+    password: ${BANK_SERVICE_R2DBC_PASSWORD:''}
+
   flyway:
-    enabled: false
+    enabled: ${BANK_SERVICE_FLYWAY_ENABLED:false}
 
 jwt:
-  secret: 09879856YNB6B824H5JLKSGKLNKLDASJGFBNSD87254ljkhs
+  secret: ${BANK_SERVICE_JWT_SECRET:09879856YNB6B824H5JLKSGKLNKLDASJGFBNSD87254ljkhs}

@@ -12,6 +12,10 @@ dependencies {
     implementation 'io.grpc:grpc-protobuf'
     implementation 'io.grpc:grpc-stub'
     implementation 'org.springframework.grpc:spring-grpc-spring-boot-starter'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+
 }
 
 protobuf {

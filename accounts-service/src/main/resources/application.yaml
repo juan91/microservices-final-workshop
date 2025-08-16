@@ -1,15 +1,18 @@
 server:
-  port: 8082
+  port: ${ACCOUNT_SERVICE_PORT:8082} # puerto del servicio
 
 spring:
   application:
     name: account-service
+
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: "juan@@1991"
+    url: ${ACCOUNT_SERVICE_R2DBC_URL:r2dbc:postgresql://localhost:5432/postgres}
+    username: ${ACCOUNT_SERVICE_R2DBC_USERNAME:postgres}
+    password: ${ACCOUNT_SERVICE_R2DBC_PASSWORD:''}
+
   flyway:
-    enabled: false
+    enabled: ${ACCOUNT_SERVICE_FLYWAY_ENABLED:false}
+
   grpc:
     server:
-      port: 9091
+      port: ${ACCOUNT_SERVICE_GRPC_PORT:9091} # puerto gRPC

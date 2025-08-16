@@ -22,6 +22,10 @@ public class RouteConfig {
     @Value("${transaction-service.id}") private String transacctionServiceId;
     @Value("${transaction-service.path}") private String transacctionServicePath;
 
+    @Value("${auth-service.url}") private String authServiceUrl;
+    @Value("${auth-service.id}") private String authServiceId;
+    @Value("${auth-service.path}") private String authServicePath;
+
     private final JwtAuthenticationFilter filter;
 
     public RouteConfig(JwtAuthenticationFilter filter) {
@@ -34,6 +38,7 @@ public class RouteConfig {
       .route(bankServiceId, route -> route.path(bankServicePath).filters(gtf -> gtf.filter(filter)).uri(bankServiceUrl))
       .route(accountsServiceId, route -> route.path(accountsServicePath).filters(gtf -> gtf.filter(filter)).uri(accountsServiceUrl))
       .route(transacctionServiceId, route -> route.path(transacctionServicePath).filters(gtf -> gtf.filter(filter)).uri(transacctionServiceUrl))
+      .route(authServiceId, route -> route.path(authServicePath).uri(authServiceUrl))
       .build();
   }
 }

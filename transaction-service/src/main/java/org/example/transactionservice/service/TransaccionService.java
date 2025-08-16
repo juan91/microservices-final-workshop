@@ -19,7 +19,7 @@ public class TransaccionService {
     private final TransaccionRepository transaccionRepository;
     private final RabbitTemplate rabbitTemplate;
 
-    public TransaccionService(TransaccionRepository transaccionRepository, RabbitTemplate rabbitTemplate) {
+    public TransaccionService(WebClient.Builder webClientBuilder, TransaccionRepository transaccionRepository, RabbitTemplate rabbitTemplate) {
         this.transaccionRepository = transaccionRepository;
         this.rabbitTemplate = rabbitTemplate;
     }
@@ -53,7 +53,7 @@ public class TransaccionService {
                 });
     }
 
-    private Mono<Transactions> procesarIntraBancaria(Cuenta origen, Cuenta destino, BigDecimal monto) {
+    public Mono<Transactions> procesarIntraBancaria(Cuenta origen, Cuenta destino, BigDecimal monto) {
         // Validar fondos
         if (origen.getSaldo().compareTo(monto) < 0) {
             return Mono.error(new RuntimeException("Fondos insuficientes"));
@@ -70,7 +70,7 @@ public class TransaccionService {
                 .thenReturn(deposito);
     }
 
-    private Mono<Transactions> procesarInterBancaria(Cuenta origen, Cuenta destino, BigDecimal monto) {
+    public Mono<Transactions> procesarInterBancaria(Cuenta origen, Cuenta destino, BigDecimal monto) {
         BigDecimal impuesto = monto.multiply(BigDecimal.valueOf(0.01)); // 1% del monto
         monto = monto.add(impuesto); // monto total con impuesto
         // Validar fondos

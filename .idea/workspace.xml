@@ -5,207 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7562f470-d815-4306-9a05-a9d6260cc34f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/expanded/expanded.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.14/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.6/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/accounts-service/app-banking.accounts-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/api-gateway/app-banking.api-gateway.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/auth-service/app-banking.auth-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/bank-service/app-banking.bank-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/transaction-service/app-banking.transaction-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/transfer-service/app-banking.transfer-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/org/example/accountservice/AccountServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/org/example/accountservice/controller/CuentaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/org/example/accountservice/dto/TransactionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/org/example/accountservice/grpc/TransactionConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/org/example/accountservice/model/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/org/example/accountservice/repo/CuentaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/java/org/example/accountservice/service/CuentaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/proto/transaction.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build/classes/java/main/org/example/apigateway/ApiGatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build/classes/java/main/org/example/apigateway/config/RouteConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build/lombok/effective-config/lombok-main.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build/lombok/effective-config/lombok-test.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build/tmp/.cache/expanded/expanded.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/config/RouteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/security/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/AuthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/dto/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/dto/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/dto/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/service/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/service/UserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/classes/java/main/org/example/bankservice/BankServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/classes/java/main/org/example/bankservice/controller/BankController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/classes/java/main/org/example/bankservice/dto/BankDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/classes/java/main/org/example/bankservice/model/Bank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/classes/java/main/org/example/bankservice/repo/BankRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/classes/java/main/org/example/bankservice/service/BankService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/annotations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/auth.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/backend.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/billing.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/client.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/config_change.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/consumer.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/control.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/distribution.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/documentation.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/endpoint.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/error_reason.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/field_behavior.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/field_info.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/http.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/httpbody.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/label.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/launch_stage.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/log.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/logging.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/metric.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/monitored_resource.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/monitoring.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/policy.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/quota.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/resource.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/routing.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/service.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/source_info.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/system_parameter.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/usage.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/api/visibility.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/apps/card/v1/card.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/cloud/audit/audit_log.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/cloud/extended_operations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/cloud/location/locations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/geo/type/viewport.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/logging/type/http_request.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/logging/type/log_severity.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/longrunning/operations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/any.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/descriptor.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/duration.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/empty.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/field_mask.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/java_features.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/source_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/struct.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/timestamp.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/type.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/protobuf/wrappers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/rpc/code.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/rpc/context/attribute_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/rpc/context/audit_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/rpc/error_details.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/rpc/status.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/shopping/type/types.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/calendar_period.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/color.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/date.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/datetime.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/dayofweek.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/decimal.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/expr.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/fraction.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/interval.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/latlng.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/localized_text.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/money.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/month.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/phone_number.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/postal_address.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/quaternion.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/google/type/timeofday.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/grpc/binlog/v1/binarylog.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/grpc/channelz/v1/channelz.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/grpc/health/v1/health.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/grpc/reflection/v1/reflection.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/extracted-include-protos/main/grpc/reflection/v1alpha/reflection.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/lombok/effective-config/lombok-main.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/resources/main/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/resources/main/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/java/org/example/bankservice/BankServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/java/org/example/bankservice/controller/BankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/java/org/example/bankservice/dto/BankDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/java/org/example/bankservice/model/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/java/org/example/bankservice/repo/BankRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/java/org/example/bankservice/service/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-service/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/app-banking-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/TransactionServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/controller/TransaccionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/dto/TransferRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/grpc/TransactionsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/model/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/model/Transactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/repo/TransaccionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/service/TransaccionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/proto/transaction.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/TransferServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/dto/Transactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/listener/TransSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/model/Transactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/repo/TransferRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/org/example/accountservice/controller/CuentaControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/org/example/accountservice/grpc/TransactionConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts-service/src/test/java/org/example/accountservice/service/CuentaServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/org/example/apigateway/security/JwtAuthenticationFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/org/example/apigateway/security/JwtServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/org/example/authservice/controller/TestSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/org/example/authservice/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/org/example/authservice/service/JwtServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/org/example/authservice/service/UserDetailServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/org/example/authservice/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service/src/test/java/org/example/bankservice/controller/BankControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-service/src/test/java/org/example/bankservice/service/BankServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/test/java/org/example/transactionservice/controller/TransaccionControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/test/java/org/example/transactionservice/grpc/TransactionsProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-service/src/test/java/org/example/transactionservice/service/TransaccionServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transfer-service/src/test/java/org/example/transferservice/listener/TransSubscriberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build/classes/java/main/org/example/apigateway/config/RouteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build/classes/java/main/org/example/apigateway/config/RouteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build/lombok/effective-config/lombok-test.config" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build/lombok/effective-config/lombok-test.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/config/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/config/RouteConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/org/example/authservice/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service/build/resources/main/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service/build/resources/main/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/grpc/TransactionsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/grpc/TransactionsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/model/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/model/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/model/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/model/Transactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/service/TransaccionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/java/org/example/transactionservice/service/TransaccionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/transaction-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/transfer-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/dto/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/transfer-service/src/main/java/org/example/transferservice/dto/Transactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/transfer-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,6 +153,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -309,7 +173,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.BankControllerTest.executor": "Run",
+    "Gradle.BankServiceTest.executor": "Run",
+    "Gradle.CuentaControllerTest.executor": "Run",
+    "Gradle.CuentaServiceTest.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.JwtAuthenticationFilterTest.executor": "Run",
+    "Gradle.JwtServiceTest (1).executor": "Run",
+    "Gradle.JwtServiceTest.executor": "Run",
+    "Gradle.TransSubscriberTest.executor": "Run",
+    "Gradle.TransaccionControllerTest.executor": "Run",
+    "Gradle.TransaccionServiceTest.executor": "Run",
+    "Gradle.TransaccionServiceTest.procesarInterBancaria_exitoso.executor": "Run",
+    "Gradle.TransaccionServiceTest.procesarIntraBancaria_exitoso.executor": "Run",
+    "Gradle.TransactionConsumerTest.executor": "Run",
+    "Gradle.TransactionsProviderTest.executor": "Run",
+    "Gradle.UserControllerTest.executor": "Run",
+    "Gradle.UserDetailServiceTest.executor": "Run",
+    "Gradle.UserServiceTest.executor": "Run",
     "Gradle.microservices-final-workshop:accounts-service [:accounts-service:org.example.accountservice.AccountServiceApplication.main()].executor": "Run",
     "Gradle.microservices-final-workshop:accounts-service [build].executor": "Run",
     "Gradle.microservices-final-workshop:accounts-service [clean].executor": "Run",
@@ -325,9 +206,12 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "feauture/juandelgadojojoa-final",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/juan/CursoOptimizaciodeQuerysSQLAvanzado/microservices-final-workshop/api-gateway/src/main/java/org/example/apigateway",
+    "last_opened_file_path": "C:/juan/CursoOptimizaciodeQuerysSQLAvanzado/microservices-final-workshop/accounts-service/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -336,16 +220,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\juan\CursoOptimizaciodeQuerysSQLAvanzado\microservices-final-workshop\accounts-service\src\main\resources" />
       <recent name="C:\juan\CursoOptimizaciodeQuerysSQLAvanzado\microservices-final-workshop\api-gateway\src\main\java\org\example\apigateway" />
       <recent name="C:\juan\CursoOptimizaciodeQuerysSQLAvanzado\microservices-final-workshop" />
       <recent name="C:\juan\CursoOptimizaciodeQuerysSQLAvanzado\microservices-final-workshop\accounts-service\src\main\java\org\example\accountservice" />
       <recent name="C:\juan\CursoOptimizaciodeQuerysSQLAvanzado\microservices-final-workshop\accounts-service\src\main" />
-      <recent name="C:\juan\Curso Optimización de Querys SQL Avanzado\microservices-final-workshop\transaction-service\src\main\java\org\example\transactionservice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\juan\Curso Optimización de Querys SQL Avanzado\microservices-final-workshop\transaction-service\src\main\proto" />
       <recent name="C:\juan\Curso Optimización de Querys SQL Avanzado\microservices-final-workshop\transfer-service\src\main\java\org\example\transferservice" />
       <recent name="C:\juan\Curso Optimización de Querys SQL Avanzado\microservices-final-workshop\app-banking" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.transferservice.listener" />
+      <recent name="org.example.transactionservice.service" />
+      <recent name="org.example.transactionservice.grpc" />
+      <recent name="org.example.transactionservice.controller" />
+      <recent name="org.example.bankservice.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.apigateway.config" />
@@ -355,20 +249,7 @@
       <recent name="org.example.transactionservice.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountServiceApplication">
-    <configuration name="AccountServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.accountservice.AccountServiceApplication" />
-      <module name="app-banking.accounts-service.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.accountservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.apigateway.ApiGatewayApplication" />
       <module name="app-banking.api-gateway.main" />
@@ -388,6 +269,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.bankservice.BankServiceApplication" />
+      <module name="app-banking.bank-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.bankservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,19 +316,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BankServiceApplication" />
       <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.AuthServiceApplication" />
       <item itemvalue="Application.TransferServiceApplication" />
-      <item itemvalue="Application.AccountServiceApplication" />
       <item itemvalue="Application.TransactionServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiGatewayApplication" />
-        <item itemvalue="Application.TransactionServiceApplication" />
-        <item itemvalue="Application.AccountServiceApplication" />
-        <item itemvalue="Application.AuthServiceApplication" />
         <item itemvalue="Application.TransferServiceApplication" />
+        <item itemvalue="Application.TransactionServiceApplication" />
+        <item itemvalue="Application.BankServiceApplication" />
+        <item itemvalue="Application.AuthServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -447,5 +341,27 @@
       <updated>1754708558052</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/test/java/org/example/apigateway/security/JwtServiceTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

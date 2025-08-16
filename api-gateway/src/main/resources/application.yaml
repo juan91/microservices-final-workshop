@@ -1,24 +1,29 @@
 spring:
   application:
-    name: api-gateway
+    name: ${API_GATEWAY_NAME:api-gateway}
 
 server:
-  port: 8080
+  port: ${API_GATEWAY_PORT:8080}
 
 bank-service:
-  url: "http://localhost:8081"
-  id:  "bank-service"
-  path: "/api/banks/**"
+  url: ${BANK_SERVICE_URL:http://localhost:8081}
+  id: ${BANK_SERVICE_ID:bank-service}
+  path: ${BANK_SERVICE_PATH:/api/banks/**}
 
 account-service:
-  url: "http://localhost:8082"
-  id:  "account-service"
-  path: "/accounts/api/**"
+  url: ${ACCOUNT_SERVICE_URL:http://localhost:8082}
+  id: ${ACCOUNT_SERVICE_ID:account-service}
+  path: ${ACCOUNT_SERVICE_PATH:/accounts/api/**}
 
 transaction-service:
-  url: "http://localhost:8083"
-  id:  "transaction-service"
-  path: "/transactions/api/**"
+  url: ${TRANSACTION_SERVICE_URL:http://localhost:8083}
+  id: ${TRANSACTION_SERVICE_ID:transaction-service}
+  path: ${TRANSACTION_SERVICE_PATH:/transactions/api/**}
+
+auth-service:
+  url: ${AUTH_SERVICE_URL:http://localhost:8086}
+  id: ${AUTH_SERVICE_URL_SERVICE_ID:auth-service}
+  path: ${AUTH_SERVICE_PATH:/api/auth/**}
 
 jwt:
-  secret: 09879856YNB6B824H5JLKSGKLNKLDASJGFBNSD87254ljkhs
+  secret: ${API_GATEWAY_JWT_SECRET:09879856YNB6B824H5JLKSGKLNKLDASJGFBNSD87254ljkhs}
