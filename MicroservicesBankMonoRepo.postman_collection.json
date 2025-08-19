@@ -1,0 +1,397 @@
+{
+	"info": {
+		"_postman_id": "c04430d5-03d9-42f4-8e89-10b37218f59e",
+		"name": "MicroservicesBankMonoRepo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4804635"
+	},
+	"item": [
+		{
+			"name": "bank get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/banks/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"banks",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bank delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/banks/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"banks",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bank save",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Davivienda\",\r\n  \"description\": \"Banco de prueba\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/banks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"banks"
+					]
+				},
+				"description": "Generated from cURL: curl --location --request POST 'http://localhost:8080/banks' \\\r\n--header 'Content-Type: application/json' \\\r\n--data-raw '{\r\n  \"name\": \"Banco Ejemplo\",\r\n  \"description\": \"Banco de prueba\",\r\n  \"createdAt\": \"2024-06-10T12:00:00Z\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "bank update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"BBVA\",\r\n  \"description\": \"Descripción actualizada\",\r\n  \"createdAt\": \"2024-06-10T12:00:00Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/banks/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"banks",
+						"3"
+					]
+				},
+				"description": "Generated from cURL: curl --location --request PUT 'http://localhost:8081/banks/{id}' \\\r\n--header 'Content-Type: application/json' \\\r\n--data-raw '{\r\n  \"name\": \"Nuevo Nombre\",\r\n  \"description\": \"Descripción actualizada\",\r\n  \"createdAt\": \"2024-06-10T12:00:00Z\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "account save",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero\": \"1111\",\r\n    \"titular\": \"Juan delgado\",\r\n    \"saldo\": 10000,\r\n    \"bancoId\": 6,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/accounts/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						"api"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/accounts/api' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"numero\": \"1234567890\",\r\n    \"titular\": \"Juan Pérez\",\r\n    \"saldo\": 1500.75,\r\n    \"bancoId\": 1,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "account update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero\": \"1234567890\",\r\n    \"titular\": \"Juan Pérez\",\r\n    \"saldo\": 1500,\r\n    \"bancoId\": 4,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/accounts/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"accounts",
+						"api"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/accounts/api' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"numero\": \"1234567890\",\r\n    \"titular\": \"Juan Pérez\",\r\n    \"saldo\": 1500.75,\r\n    \"bancoId\": 1,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "account list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero\": \"1234567890\",\r\n    \"titular\": \"Juan Pérez\",\r\n    \"saldo\": 1500.75,\r\n    \"bancoId\": 1,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/accounts/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"accounts",
+						"api"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/accounts/api' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"numero\": \"1234567890\",\r\n    \"titular\": \"Juan Pérez\",\r\n    \"saldo\": 1500.75,\r\n    \"bancoId\": 1,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "account get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/accounts/api/3333",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						"api",
+						"3333"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/accounts/api' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"numero\": \"1234567890\",\r\n    \"titular\": \"Juan Pérez\",\r\n    \"saldo\": 1500.75,\r\n    \"bancoId\": 1,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "account history grpc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/accounts/api/transaction/3333",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"accounts",
+						"api",
+						"transaction",
+						"3333"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/accounts/api' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"numero\": \"1234567890\",\r\n    \"titular\": \"Juan Pérez\",\r\n    \"saldo\": 1500.75,\r\n    \"bancoId\": 1,\r\n    \"createdAt\": \"2025-08-11T14:00:00\"\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "transaction post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cuentaOrigenId\": 1234567890,\r\n    \"cuentaDestinoId\": 3333,\r\n    \"monto\": 500\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/transactions/api/transfer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transactions",
+						"api",
+						"transfer"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8082/transactions/api/transfer' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"cuentaOrigenId\": 1,\r\n    \"cuentaDestinoId\": 2,\r\n    \"monto\": 500.00\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "auth",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"juan\",\r\n    \"password\": \"123\",\r\n    \"role\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8082/transactions/api/transfer' \\\r\n--header 'Content-Type: application/json' \\\r\n--data '{\r\n    \"cuentaOrigenId\": 1,\r\n    \"cuentaDestinoId\": 2,\r\n    \"monto\": 500.00\r\n}'\r\n"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJqdWFuIiwiaWF0IjoxNzU1Mjk3MzY1LCJleHAiOjE3NTUzODM3NjV9.1EjU7-1YmKxK91oEedd7nqVv4PlQ6T4JxXpKrAhPcA6Ttz88uFJtjZjCnEHnDNCI",
+			"type": "string"
+		}
+	]
+}
